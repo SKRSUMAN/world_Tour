@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "countryName": "Atlantis",
+      "capital": "Neptune",
+      "population": "Unknown",
+      "interestingFact": "Atlantis is a mythical island described in ancient texts as a powerful civilization, said to have sunk into the ocean."
+    },
+    {
+      "id": 2,
+      "countryName": "Fiji",
+      "capital": "Suva",
+      "population": 896444,
+      "interestingFact": "Fiji is made up of over 300 islands, and it is famous for its beautiful coral reefs and clear lagoons."
+    },
+    {
+      "id": 3,
+      "countryName": "Kenya",
+      "capital": "Nairobi",
+      "population": 53771296,
+      "interestingFact": "Kenya is home to the Maasai Mara, one of the most famous wildlife reserves in the world."
+    },
+    {
+      "id": 4,
+      "countryName": "Iceland",
+      "capital": "Reykjavik",
+      "population": 343599,
+      "interestingFact": "Iceland is known for its dramatic landscapes, including volcanoes, glaciers, and geothermal springs."
+    },
+    {
+      "id": 5,
+      "countryName": "Argentina",
+      "capital": "Buenos Aires",
+      "population": 45195777,
+      "interestingFact": "Argentina is famous for its tango dance, the Pampas grasslands, and the Andes mountain range."
+    },
+    {
+      "id": 6,
+      "countryName": "New Zealand",
+      "capital": "Wellington",
+      "population": 5084300,
+      "interestingFact": "New Zealand is known for its breathtaking landscapes, including mountains, beaches, and forests, and was the filming location for 'The Lord of the Rings.'"
+    },
+    {
+      "id": 7,
+      "countryName": "Norway",
+      "capital": "Oslo",
+      "population": 5421241,
+      "interestingFact": "Norway is famous for its stunning fjords and is one of the best places in the world to see the Northern Lights."
+    },
+    {
+      "id": 8,
+      "countryName": "South Korea",
+      "capital": "Seoul",
+      "population": 51329899,
+      "interestingFact": "South Korea is a global leader in technology and innovation, and Seoul is known for its vibrant culture and K-pop music."
+    }
+  ]
+  
