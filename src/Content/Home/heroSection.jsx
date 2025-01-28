@@ -2,7 +2,7 @@ import { FaLongArrowAltRight } from "react-icons/fa"
 
 const HeroSection = () => {
   return (
-    <div className='w-full min-h-[470px] !mt-[100px]'>
+    <div className='w-full min-h-[60vh] !mt-[100px]'>
         <div className="lg:!px-[120px] md:!px-[50px] !px-[20px] !margin-auto grid md:grid-cols-2">
             <div className="flex flex-col gap-10">
                 <div>
@@ -12,7 +12,7 @@ const HeroSection = () => {
                 <h2 className="text-[20px]">Discover the history, culture, and beauty of every nation. Sort, search, and filter through countries to find the details you need.</h2>
                 </div>
                 <div className="gap-5">
-                <button className="flex gap-5 items-center font-medium leading-tight cursor-pointer !py-2.5 !px-6 text-center outline-none border-0 text-normal bg-[#202020] text-white rounded-[15px] border-[0.1rem] border-solid hover:bg-gray-700 hover:text-blue-100 !hover:transition-all !hover:duration-300 hover:ease-in-out">Start Exploring  <FaLongArrowAltRight className="text-[22px]" /> </button>
+                <button className="flex gap-5 items-center font-medium leading-tight cursor-pointer !py-2.5 !px-6 text-center outline-none text-normal bg-[#202020] text-white rounded-[15px] border-[0.1rem] border-solid hover:bg-gray-700 hover:text-blue-100 !hover:transition-all !hover:duration-300 hover:ease-in-out">Start Exploring  <FaLongArrowAltRight className="text-[22px]" /> </button>
                 </div>
             </div>
               

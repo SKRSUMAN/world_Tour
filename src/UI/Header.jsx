@@ -29,7 +29,7 @@ const Header = () => {
   };
 
   return (
-    <div className="w-full h-25 w-full bg-[#202020] shadow-[0_10px_10px_-10px_rgba(255,255,255,0.3)]border border-red-500 flex flex-col items-center justify-center">
+    <div className="h-25 w-full bg-[#202020] shadow-[0_10px_10px_-10px_rgba(255,255,255,0.3)]border border-red-500 flex flex-col items-center justify-center">
       <div className="lg:!px-[120px] md:!px-[50px] !px-[20px] !margin-auto grid grid-cols-2 gap-5 w-full">
         <div className="">
           <NavLink>

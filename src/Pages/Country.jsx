@@ -1,6 +1,10 @@
+import Block from "../Content/Country/block"
+
 const Country = () => {
   return (
-    <div className=''>Country</div>
+    <div className=''>
+      <Block/>
+    </div>
   )
 }
 
