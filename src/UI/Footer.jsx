@@ -31,12 +31,12 @@ const Footer = () => {
   };
   return (
     <>
-      <div className="w-full h-20 bg-[#151414] flex flex-col justify-center">
-        <div className="lg:!px-[120px] md:!px-[50px] !px-[20px] !margin-auto grid grid-cols-3 gap-5 ">
+      <div className="w-full h-fit md:!h-[100px] bg-[#151414] flex flex-col justify-center ">
+        <div className="lg:!px-[120px] md:!px-[50px] !px-[20px] md:!my-10 !my-5 !margin-auto grid md:grid-cols-3 gap-5 place-items-center ">
           {footerData.map((data, index) => {
             const { icon, title, details } = data;
             return (
-              <div key={index} className="flex gap-5 items-center ">
+              <div key={index} className="flex gap-5 justify-center items-center">
                 <p className="text-[25px] text-blue-500">{footerIcons[icon]}</p>
                 <div className="">
                   <h1 className="text-[18px] font-bold">{title}</h1>
@@ -45,12 +45,13 @@ const Footer = () => {
                   </h2>
                 </div>
               </div>
+              
             );
           })}
+           </div>
         </div>
-      </div>
-      <div className="flex w-full h-16 bg-[#202020] items-center">
-        <div className="lg:!px-[120px] md:!px-[50px] !px-[20px] !margin-auto grid grid-cols-2 w-full ">
+      <div className="flex w-full h-fit md:!h-[80px] bg-[#202020] items-center">
+        <div className="lg:!px-[120px] md:!px-[50px] !px-[20px] !margin-auto grid lg:grid-cols-2 w-full md:!my-10 !my-5 ">
           <div>
             <h1 className="!text-white/50 text-[15px] tracking-[1px]">
               Copyright © 2024, All Right Reserved{" "}

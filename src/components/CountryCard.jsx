@@ -5,7 +5,7 @@ const CountryCard = ({ data }) => {
     <div className="h-fit !p-10 flex flex-col gap-3 border-2 border-transparent from-[#070909] via-[#140d1b] to-[#110d13] rounded-[45px] bg-gradient-to-r from-[rgb(31, 112, 112)] via-[rgb(67, 10, 124)] to-[rgb(155, 23, 221)] bg-clip-border border-y-[#726578] border-x-[#625e63]">
       <div>
         <img
-          className="w-full h-[150px] object-fill"
+          className="w-full h-[150px] object-cover rounded-[20px]"
           src={data.flags.svg}
           alt=""
         />

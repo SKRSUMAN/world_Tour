@@ -1,11 +1,17 @@
-import Block from "../Content/Country/block"
+import { useState } from "react";
+import SearchFilter from "../components/SearchFilter";
+import Block from "../Content/Country/block";
 
 const Country = () => {
-  return (
-    <div className=''>
-      <Block/>
-    </div>
-  )
-}
+  const [countries, setCountries] = useState([]);
+  const[filterCountry,setFilterCountry] = useState([])
 
-export default Country
+  return (
+    <div className="">
+      <SearchFilter countries={countries} setCountries={setCountries} setFilterCountry={setFilterCountry} filterCountry={filterCountry}/>
+      <Block countries={countries} setCountries={setCountries} setFilterCountry={setFilterCountry} filterCountry={filterCountry} />
+    </div>
+  );
+};
+
+export default Country;

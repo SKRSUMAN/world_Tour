@@ -54,7 +54,7 @@ const Header = () => {
           </ul>
         </div>
 
-        <div className="block md:hidden flex justify-end items-center">
+        <div className=" md:hidden flex justify-end items-center">
           <button
             onClick={handelButtonToggle}
             className="border border-white rounded-full !px-[20px] !py-[2px] hover:bg-gray-700">
