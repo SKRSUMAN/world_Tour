@@ -1,4 +1,5 @@
 import { FaLongArrowAltRight } from "react-icons/fa"
+import { NavLink } from "react-router-dom"
 
 const HeroSection = () => {
   return (
@@ -12,7 +13,9 @@ const HeroSection = () => {
                 <h2 className="text-[20px]">Discover the history, culture, and beauty of every nation. Sort, search, and filter through countries to find the details you need.</h2>
                 </div>
                 <div className="gap-5">
+                    <NavLink to="/country">
                 <button className="flex gap-5 items-center font-medium leading-tight cursor-pointer !py-2.5 !px-6 text-center outline-none text-normal bg-[#202020] text-white rounded-[15px] border-[0.1rem] border-solid hover:bg-gray-700 hover:text-blue-100 !hover:transition-all !hover:duration-300 hover:ease-in-out">Start Exploring  <FaLongArrowAltRight className="text-[22px]" /> </button>
+                </NavLink>
                 </div>
             </div>
               

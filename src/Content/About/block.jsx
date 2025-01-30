@@ -9,7 +9,7 @@ const Block = () => {
             Here are the Interesting Facts we’re proud of
           </h1>
         </div>
-        <div className="w-full grid lg:grid-cols-3 gap-5 !mt-5 place-items-center">
+        <div className="w-full grid lg:grid-cols-2 xl:grid-cols-3 lg:gap-10 gap-5 !mt-5 place-items-center">
           {countryFacts.map((data) => {
             const { id, countryName, capital, population, interestingFact } =
               data;
@@ -17,7 +17,7 @@ const Block = () => {
             return (
               <div
                 key={id}
-                className="lg:w-[400px] md:w-[600px] w-full min-h-[250px] relative border-2 border-transparent from-[#070909] via-[#1a181c] to-[#080609] bg-clip-padding rounded-[45px] !p-10 flex flex-col gap-1.5 bg-gradient-to-r from-[rgb(31, 112, 112)] via-[rgb(67, 10, 124)] to-[rgb(155, 23, 221)] bg-clip-border">
+                className="lg:w-[360px] md:w-[600px] w-full min-h-[250px] relative border-2 border-transparent from-[#070909] via-[#1a181c] to-[#080609] bg-clip-padding rounded-[45px] !p-10 flex flex-col gap-1.5 bg-gradient-to-r from-[rgb(31, 112, 112)] via-[rgb(67, 10, 124)] to-[rgb(155, 23, 221)] bg-clip-border">
                 <h1 className="text-[30px] font-bold text-white/50 !mb-3">
                   {countryName}
                 </h1>
